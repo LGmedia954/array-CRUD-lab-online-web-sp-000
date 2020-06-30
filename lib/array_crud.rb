@@ -7,7 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  ferrets = Array.new ["Painted", "Phats", "Dida", "Daisy"]
+  ferrets = Array.new
+  ferrets = ["Painted", "Phats", "Dida", "Daisy"]
   ferrets.push("Loofie")
 end
 
