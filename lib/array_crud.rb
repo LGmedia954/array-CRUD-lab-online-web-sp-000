@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(ferrets, "Loofie")
   ferrets = ["Painted", "Phats", "Dida", "Daisy"]
-  ferrets << "Loofie"
+  ferrets.push << "Loofie"
 end
 
 def add_element_to_start_of_array(array, element)
